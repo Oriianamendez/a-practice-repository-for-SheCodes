@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe</title>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style-wireframe-week5.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-2 city">Caracas</div>
+            <div class="col-2 city">Madrid</div>
+            <div class="col-2 city">Lisbon</div>
+            <div class="col-2 city">Miami</div>
+          </div>
+          <div class="row">
+            <form id="city-form">
+              <input
+                type="text"
+                placeholder="Enter a city"
+                class="col-4 form-control"
+                id="enter-a-city"
+              />
+              <button type="submit" class="btn btn-primary" class="col-4">
+                Search
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                class="col-4"
+                id="current-button"
+              >
+                Current
+              </button>
+            </form>
+            <div class="caracas" id="caracas">Caracas</div>
+            <div class="today" id="today">Thursday 14:15</div>
+            <div class="clear" id="sensation">Feels like 20°C</div>
+          </div>
+          <div class="row">
+            <div class="col-1 sun">🌡️</div>
+            <div class="col actual">
+              <span id="grade">24</span>
+              <small>°C </small>
+            </div>
+            <div class="col precipitation">
+              <span id="humidity">Humidity: 47%</span>
+              <br />
+              <span id="wind">Wind: 5km/h</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="SheCodesPlus_week5.js"></script>
+  </body>
+</html>
