@@ -63,3 +63,7 @@ small {
   font-size: 30px;
   margin-top: 10px;
 }
+.link {
+  margin-left: 15px;
+  font-size: 13px;
+}
